@@ -115,9 +115,6 @@ class UserModel{
     offlineRewardActivated = json["offlineRewardActivated"] ?? false;
 
     hasOfflineMine = json["hasOfflineMine"] ?? false;
-
-    // offlineRewardActivated = hasOfflineMine;
-
     settings = json["settings"] ?? {};
 
     normalTapMultipler = json["normalTapMultipler"] ?? 1;
